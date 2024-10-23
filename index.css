@@ -1,0 +1,79 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Foldit:wght@100..900&display=swap');
+
+body{
+  background-color: rgba(0, 0, 0, 0.945);
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+.containner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+    color: gray;
+}
+.main form {
+    background-color: rgba(1, 1, 31, 0.548);
+    width: 500px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  color: white;
+}
+
+button{
+    background: rgb(30, 30, 230);
+    width: 80px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    border-radius: 10px;
+
+}
+
+table{
+    background-color: white;
+    color: gray;
+    width: 500px;
+    margin-top: 20px;
+    padding:40px 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+ 
+    
+    
+}
+
+ thead{
+    background-color: black;
+    
+}  
+tbody{
+    background: rgb(30, 30, 230);
+}
+a{
+    color:skyblue;
+    margin: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+.ed{
+    color: gray;
+}
