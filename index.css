@@ -81,4 +81,5 @@ a:hover{
 .notification{
  background-color: aqua;
  border-radius: 10px;
+ width: 30%;
 }
