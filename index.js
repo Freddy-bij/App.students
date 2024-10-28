@@ -10,7 +10,7 @@ document.querySelector('#grade').value ="";
 
 document.querySelector('button').addEventListener('click', e =>{
     e.preventDefault();
-  const firstName =  document.querySelector('#fist-name').value;
+const firstName =  document.querySelector('#fist-name').value;
 const lastName = document.querySelector('#last-name').value;
 const grade = document.querySelector('#grade').value;
 
@@ -41,7 +41,7 @@ if(firstName == "" || lastName=="" || grade == ""){
 document.querySelector('tbody').addEventListener('click' , e =>{
     e.preventDefault();
    if(e.target.classList.contains('ed')){
-    e.target.parentElement.parentElement
+    
    }
     
 })
